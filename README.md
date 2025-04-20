@@ -1,2 +1,32 @@
-# Basics-Code
-Basics Problems
+| **Problem Number** | **Problem Description**                                                                                  | **Example Input**                       | **Example Output**                |
+|--------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------------------------------|
+| 1                  | Implement basic math operations like addition, subtraction, multiplication, and division.               | `a = 5, b = 3`                         | `Sum = 8, Difference = 2`         |
+| 2                  | Check if a given number is prime.                                                                         | `n = 7`                                 | `True`                            |
+| 3                  | Find the Greatest Common Divisor (GCD) using the Euclidean algorithm.                                     | `a = 56, b = 98`                        | `GCD = 14`                        |
+| 4                  | Find the Least Common Multiple (LCM) of two numbers.                                                     | `a = 4, b = 6`                          | `LCM = 12`                        |
+| 5                  | Calculate the factorial of a given number `n`.                                                           | `n = 5`                                 | `Factorial = 120`                 |
+| 6                  | Generate the first `n` Fibonacci numbers.                                                                | `n = 5`                                 | `Fibonacci Sequence = [0, 1, 1, 2, 3]` |
+| 7                  | Calculate the sum of digits of a given number `n`.                                                       | `n = 1234`                              | `Sum of digits = 10`              |
+| 8                  | Check if a number is an Armstrong number (a number that is equal to the sum of its digits raised to the power of the number of digits). | `n = 153`                               | `True`                            |
+| 9                  | Check if a number is a perfect number (sum of its divisors equals the number).                           | `n = 28`                                | `True`                            |
+| 10                 | Check if a number is a palindrome.                                                                        | `n = 121`                               | `True`                            |
+| 11                 | Compute `x^y` (x raised to the power y).                                                                  | `x = 2, y = 3`                          | `8`                               |
+| 12                 | Generate all prime numbers up to a given number `n` using the Sieve of Eratosthenes.                     | `n = 10`                                | `Prime numbers = [2, 3, 5, 7]`   |
+| 13                 | Count the number of set bits (1’s) in the binary representation of a number.                             | `n = 29`                                | `4`                               |
+| 14                 | Find the sum of all divisors of a number `n`.                                                            | `n = 6`                                 | `Sum of divisors = 12`            |
+| 15                 | Find the `n`th prime number.                                                                              | `n = 5`                                 | `5th prime = 11`                  |
+| 16                 | Check if three numbers form a Pythagorean triplet (a^2 + b^2 = c^2).                                     | `a = 3, b = 4, c = 5`                   | `True`                            |
+| 17                 | Find the sum of the first `n` terms of an arithmetic progression.                                        | `a = 2, d = 3, n = 5`                   | `Sum = 40`                        |
+| 18                 | Find the sum of the first `n` terms of a geometric progression.                                          | `a = 2, r = 3, n = 4`                   | `Sum = 80`                        |
+| 19                 | Calculate the binomial coefficient `C(n, k)` (n choose k).                                                | `n = 5, k = 2`                          | `C(5, 2) = 10`                    |
+| 20                 | Generate the first `n` rows of Pascal’s Triangle.                                                        | `n = 5`                                 | `Pascal's Triangle = [ [1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1] ]` |
+| 21                 | Solve a quadratic equation of the form `ax^2 + bx + c = 0`.                                              | `a = 1, b = -3, c = 2`                  | `x = 1, x = 2`                    |
+| 22                 | Find the GCD of two numbers using recursion.                                                              | `a = 36, b = 60`                        | `GCD = 12`                        |
+| 23                 | Find `x^y % p` using modular exponentiation efficiently.                                                  | `x = 2, y = 5, p = 13`                  | `Result = 6`                      |
+| 24                 | Count the number of digits in a number `n`.                                                               | `n = 12345`                             | `Digits count = 5`                |
+| 25                 | Find all divisors of a given number `n`.                                                                  | `n = 36`                                | `Divisors = [1, 2, 3, 4, 6, 9, 12, 18, 36]` |
+| 26                 | Find the number of unique paths in a grid from the top-left corner to the bottom-right corner.           | `m = 3, n = 2`                          | `Unique Paths = 3`                |
+| 27                 | Find the median of two sorted arrays.                                                                     | `arr1 = [1, 3], arr2 = [2]`              | `Median = 2`                      |
+| 28                 | Find two numbers whose sum is closest to zero in an array.                                               | `arr = [-1, 2, 1, -4]`                  | `Closest sum = -1 + 2 = 1`        |
+| 29                 | Count the number of inversions in an array (inversions are pairs of elements where the first is greater than the second). | `arr = [2, 4, 1, 3, 5]`                | `Inversions = 3`                  |
+| 30                 | Find the missing number in an array containing numbers from `1` to `n`.                                  | `arr = [1, 2, 4, 5, 6]`                 | `Missing number = 3`              |
